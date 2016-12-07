@@ -1,0 +1,3 @@
+#,"Emp ID","Emp Last Name","Emp First Name","Emp Middle Name","Email","Address","Postal Code","Tel Num","Mobile Num","Department Name","Gender","Civil Status","Birth Date","Birth Place","Religion","TIN Num"
+1,"2010100001","Una","Juan","L","jluna@jlu.com","99 B Street, Ceedee Drive, Makati City","1,234.00","1,232,424.00","09272223304","Internship","Male","Married","2000-09-01 00:00:00","Makati","Roman Catholic","53535354545"
+1,"2,010,100,001","","","","","","1,234.00","1,232,424.00","","","","","","","",""

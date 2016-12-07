@@ -1,0 +1,977 @@
+#,"Entry ID","Ip Address","User","Datetime","Action","Module"
+1,"1","::1","root","2016-12-04 03:08:31","Logged in","/APC_Student_Assistant_System/login.php"
+2,"2","::1","root","2016-12-04 03:08:33","Query Executed: UPDATE user SET `password`=?, `salt`=?, `iteration`=?, `method`=? WHERE username=?
+Array
+(
+    [0] => ssiss
+    [1] => $2y$12$PCidaylyReHJIN.tOKXI8OacRpmE.ksz2ZDvvNTk8sOPQrfFykwJS
+    [2] => PCidaylyReHJIN+tOKXI8Q
+    [3] => 12
+    [4] => blowfish
+    [5] => root
+)
+","/APC_Student_Assistant_System/login.php"
+3,"3","::1","root","2016-12-04 03:13:12","Pressed submit button","/APC_Student_Assistant_System/modules/add_employee.php"
+4,"4","::1","root","2016-12-04 03:13:12","Query Executed: INSERT INTO employee(Emp_id, Emp_last_name, Emp_first_name, Emp_middle_name, Email, Address, Postal_code, Tel_num, Mobile_num, Department_name, Gender, Civil_status, Birth_date, Birth_place, Religion, TIN_num) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+Array
+(
+    [0] => isssssiissssssss
+    [1] => 1
+    [2] => Una
+    [3] => Juan
+    [4] => L
+    [5] => jluna@jlu.com
+    [6] => 99 B Street, Ceedee Drive, Makati City
+    [7] => 1234
+    [8] => 1232424
+    [9] => 09272223304
+    [10] => Internship
+    [11] => Male
+    [12] => Married
+    [13] => 2000-09-04
+    [14] => Makati
+    [15] => Roman Catholic
+    [16] => 53535354545
+)
+","/APC_Student_Assistant_System/modules/add_employee.php"
+5,"5","::1","root","2016-12-04 03:14:24","Pressed cancel button","/APC_Student_Assistant_System/modules/detailview_employee.php"
+6,"6","::1","root","2016-12-04 03:16:25","Pressed cancel button","/APC_Student_Assistant_System/modules/add_employeebridgerecord.php"
+7,"7","::1","root","2016-12-04 03:17:00","Pressed cancel button","/APC_Student_Assistant_System/modules/add_record.php"
+8,"8","::1","root","2016-12-04 03:18:20","Pressed submit button","/APC_Student_Assistant_System/modules/add_term.php"
+9,"9","::1","root","2016-12-04 03:18:21","Query Executed: INSERT INTO term(Term_id, school_year, Term_num, Term_start, Term_end, Term_hour) VALUES(?,?,?,?,?,?)
+Array
+(
+    [0] => isssss
+    [1] => 
+    [2] => 2016
+    [3] => 2
+    [4] => 2016-09-04
+    [5] => 2016-12-16
+    [6] => 10
+)
+","/APC_Student_Assistant_System/modules/add_term.php"
+10,"10","::1","root","2016-12-04 03:22:51","Pressed submit button","/APC_Student_Assistant_System/modules/edit_term.php"
+11,"11","::1","root","2016-12-04 03:23:04","Pressed submit button","/APC_Student_Assistant_System/modules/edit_term.php"
+12,"12","::1","root","2016-12-04 03:23:05","Query Executed: UPDATE term SET school_year = ?, Term_num = ?, Term_start = ?, Term_end = ?, Term_hour = ? WHERE Term_id = ?
+Array
+(
+    [0] => sssssi
+    [1] => 2016
+    [2] => 2
+    [3] => 2016-09-04
+    [4] => 2016-12-16
+    [5] => 10:00:00
+    [6] => 1
+)
+","/APC_Student_Assistant_System/modules/edit_term.php"
+13,"13","::1","root","2016-12-04 03:26:22","Pressed submit button","/APC_Student_Assistant_System/modules/edit_term.php"
+14,"14","::1","root","2016-12-04 03:26:39","Pressed submit button","/APC_Student_Assistant_System/modules/edit_term.php"
+15,"15","::1","root","2016-12-04 03:26:39","Query Executed: UPDATE term SET school_year = ?, Term_num = ?, Term_start = ?, Term_end = ?, Term_hour = ? WHERE Term_id = ?
+Array
+(
+    [0] => sssssi
+    [1] => 2016
+    [2] => 2
+    [3] => 2016-09-04
+    [4] => 2016-12-16
+    [5] => 10:00:00
+    [6] => 1
+)
+","/APC_Student_Assistant_System/modules/edit_term.php"
+16,"16","::1","root","2016-12-05 04:50:21","Logged in","/APC_Student_Assistant_System/login.php"
+17,"17","::1","root","2016-12-05 04:52:41","Pressed submit button","/APC_Student_Assistant_System/modules/add_student.php"
+18,"18","::1","root","2016-12-05 04:52:41","Query Executed: INSERT INTO student(Student_id, Student_last_name, Student_first_name, Student_middle_name, Birth_date, Birth_place, Entry_level, Nationality, Gender, Address, Postal_code, Tel_num, Mobile_num, Email, Religion, Civil_status) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+Array
+(
+    [0] => isssssssssiissss
+    [1] => 2011100560
+    [2] => Cruz
+    [3] => Lorenz Matthew
+    [4] => M
+    [5] => 1999-03-06
+    [6] => Mandaluyong
+    [7] => Transferee
+    [8] => Filipino
+    [9] => Male
+    [10] => 28 ML Quezon St., Bambang, Taguig City
+    [11] => 1637
+    [12] => 4235059
+    [13] => 09167924892
+    [14] => lmcruz@student.apc.edu.ph
+    [15] => Roman Catholic
+    [16] => Single
+)
+","/APC_Student_Assistant_System/modules/add_student.php"
+19,"19","::1","root","2016-12-05 04:55:02","Pressed submit button","/APC_Student_Assistant_System/modules/edit_student.php"
+20,"20","::1","root","2016-12-05 04:55:02","Query Executed: UPDATE student SET Student_id = ?, Student_last_name = ?, Student_first_name = ?, Student_middle_name = ?, Birth_date = ?, Birth_place = ?, Entry_level = ?, Nationality = ?, Gender = ?, Address = ?, Postal_code = ?, Tel_num = ?, Mobile_num = ?, Email = ?, Religion = ?, Civil_status = ? WHERE Student_id = ?
+Array
+(
+    [0] => isssssssssiissssi
+    [1] => 2011100560
+    [2] => Cruz
+    [3] => Lorenz Matthew
+    [4] => M
+    [5] => 1999-03-05
+    [6] => Mandaluyong
+    [7] => Transferee
+    [8] => Filipino
+    [9] => Male
+    [10] => 28 ML Quezon St., Bambang, Taguig City
+    [11] => 1637
+    [12] => 4235059
+    [13] => 09167924892
+    [14] => lmcruz@student.apc.edu.ph
+    [15] => Roman Catholic
+    [16] => Single
+    [17] => 2011100560
+)
+","/APC_Student_Assistant_System/modules/edit_student.php"
+21,"21","::1","root","2016-12-05 04:55:53","Pressed submit button","/APC_Student_Assistant_System/sysadmin/add_person.php"
+22,"22","::1","root","2016-12-05 04:55:53","Query Executed: INSERT INTO person(person_id, first_name, middle_name, last_name, gender) VALUES(?,?,?,?,?)
+Array
+(
+    [0] => issss
+    [1] => 
+    [2] => Lorenz Matthew
+    [3] => M
+    [4] => Cruz
+    [5] => Male
+)
+","/APC_Student_Assistant_System/sysadmin/add_person.php"
+23,"23","::1","root","2016-12-05 04:56:02","Pressed submit button","/APC_Student_Assistant_System/sysadmin/add_person.php"
+24,"24","::1","root","2016-12-05 04:56:02","Query Executed: INSERT INTO person(person_id, first_name, middle_name, last_name, gender) VALUES(?,?,?,?,?)
+Array
+(
+    [0] => issss
+    [1] => 
+    [2] => Juan
+    [3] => L
+    [4] => Una
+    [5] => Male
+)
+","/APC_Student_Assistant_System/sysadmin/add_person.php"
+25,"25","::1","root","2016-12-05 04:56:14","Pressed submit button","/APC_Student_Assistant_System/sysadmin/add_user_role.php"
+26,"26","::1","root","2016-12-05 04:56:16","Pressed submit button","/APC_Student_Assistant_System/sysadmin/add_user_role.php"
+27,"27","::1","root","2016-12-05 04:56:16","Query Executed: INSERT INTO user_role(role_id, role, description) VALUES(?,?,?)
+Array
+(
+    [0] => iss
+    [1] => 
+    [2] => Student Assistant
+    [3] => a
+)
+","/APC_Student_Assistant_System/sysadmin/add_user_role.php"
+28,"28","::1","root","2016-12-05 04:56:24","Pressed submit button","/APC_Student_Assistant_System/sysadmin/add_user_role.php"
+29,"29","::1","root","2016-12-05 04:56:24","Query Executed: INSERT INTO user_role(role_id, role, description) VALUES(?,?,?)
+Array
+(
+    [0] => iss
+    [1] => 
+    [2] => Departmental Coordinator
+    [3] => a
+)
+","/APC_Student_Assistant_System/sysadmin/add_user_role.php"
+30,"30","::1","root","2016-12-05 04:56:45","Pressed submit button","/APC_Student_Assistant_System/sysadmin/add_user.php"
+31,"31","::1","root","2016-12-05 04:56:45","Query Executed: INSERT INTO user(username, password, salt, iteration, method, person_id, role_id, skin_id) VALUES(?,?,?,?,?,?,?,?)
+Array
+(
+    [0] => sssisiii
+    [1] => lmcruz
+    [2] => $2y$12$WAlHuEu55ibDHbuyQ9XQZOHuYvENZmf58PG8McQetL3PERo1CHCK.
+    [3] => WAlHuEu55ibDHbuyQ9XQZQ
+    [4] => 12
+    [5] => blowfish
+    [6] => 2
+    [7] => 3
+    [8] => 1
+)
+","/APC_Student_Assistant_System/sysadmin/add_user.php"
+32,"32","::1","root","2016-12-05 04:56:45","Query executed: INSERT `user_passport` SELECT 'lmcruz', `link_id` FROM user_role_links WHERE role_id='3'","/APC_Student_Assistant_System/sysadmin/add_user.php"
+33,"33","::1","root","2016-12-05 04:57:01","Pressed submit button","/APC_Student_Assistant_System/sysadmin/add_user.php"
+34,"34","::1","root","2016-12-05 04:57:02","Query Executed: INSERT INTO user(username, password, salt, iteration, method, person_id, role_id, skin_id) VALUES(?,?,?,?,?,?,?,?)
+Array
+(
+    [0] => sssisiii
+    [1] => juanluna
+    [2] => $2y$12$pWP79FOZRy/e4qNhcytxd.fYaIg9xKsE0GcHYZO67.mfjbq4T.AjG
+    [3] => pWP79FOZRy/e4qNhcytxdA
+    [4] => 12
+    [5] => blowfish
+    [6] => 3
+    [7] => 4
+    [8] => 1
+)
+","/APC_Student_Assistant_System/sysadmin/add_user.php"
+35,"35","::1","root","2016-12-05 04:57:02","Query executed: INSERT `user_passport` SELECT 'juanluna', `link_id` FROM user_role_links WHERE role_id='4'","/APC_Student_Assistant_System/sysadmin/add_user.php"
+36,"36","::1","root","2016-12-05 04:57:05","Logged out","/APC_Student_Assistant_System/end.php"
+37,"37","::1","lmcruz","2016-12-05 04:57:11","Logged in","/APC_Student_Assistant_System/login.php"
+38,"38","::1","lmcruz","2016-12-05 04:57:26","Logged out","/APC_Student_Assistant_System/end.php"
+39,"39","::1","juanluna","2016-12-05 04:57:30","Logged in","/APC_Student_Assistant_System/login.php"
+40,"40","::1","juanluna","2016-12-05 04:57:35","Logged out","/APC_Student_Assistant_System/end.php"
+41,"41","::1","root","2016-12-05 04:57:41","Logged in","/APC_Student_Assistant_System/login.php"
+42,"42","::1","root","2016-12-05 04:58:16","Pressed submit button","/APC_Student_Assistant_System/modules/edit_employee.php"
+43,"43","::1","root","2016-12-05 04:58:16","Query Executed: UPDATE employee SET Emp_id = ?, Emp_last_name = ?, Emp_first_name = ?, Emp_middle_name = ?, Email = ?, Address = ?, Postal_code = ?, Tel_num = ?, Mobile_num = ?, Department_name = ?, Gender = ?, Civil_status = ?, Birth_date = ?, Birth_place = ?, Religion = ?, TIN_num = ? WHERE Emp_id = ?
+Array
+(
+    [0] => isssssiissssssssi
+    [1] => 2010100001
+    [2] => Una
+    [3] => Juan
+    [4] => L
+    [5] => jluna@jlu.com
+    [6] => 99 B Street, Ceedee Drive, Makati City
+    [7] => 1234
+    [8] => 1232424
+    [9] => 09272223304
+    [10] => Internship
+    [11] => Male
+    [12] => Married
+    [13] => 2000-09-01
+    [14] => Makati
+    [15] => Roman Catholic
+    [16] => 53535354545
+    [17] => 1
+)
+","/APC_Student_Assistant_System/modules/edit_employee.php"
+44,"44","::1","root","2016-12-05 04:58:19","Logged out","/APC_Student_Assistant_System/end.php"
+45,"45","::1","juanluna","2016-12-05 04:58:24","Logged in","/APC_Student_Assistant_System/login.php"
+46,"46","::1","juanluna","2016-12-05 04:58:45","Logged out","/APC_Student_Assistant_System/end.php"
+47,"47","::1","root","2016-12-05 04:59:18","Logged in","/APC_Student_Assistant_System/login.php"
+48,"48","::1","root","2016-12-05 04:59:32","Pressed submit button","/APC_Student_Assistant_System/modules/reporter_student.php"
+49,"49","::1","root","2016-12-05 05:02:05","Pressed submit button","/APC_Student_Assistant_System/modules/reporter_employeebridgerecord.php"
+50,"50","::1","root","2016-12-05 05:02:44","Query Executed: DELETE FROM cobalt_reporter WHERE module_name = ? AND report_name = ?
+Array
+(
+    [0] => ss
+    [1] => EMPLOYEEBRIDGERECORD_REPORT_CUSTOM
+    [2] => q
+)
+","/APC_Student_Assistant_System/modules/reporter_employeebridgerecord.php"
+51,"51","::1","root","2016-12-05 05:02:44","Query Executed: INSERT INTO cobalt_reporter(`module_name`,
+                            `report_name`,
+                            `username`,
+                            `show_field`,
+                            `operator`,
+                            `text_field`,
+                            `sum_field`,
+                            `count_field`,
+                            `group_field1`,
+                            `group_field2`,
+                            `group_field3`) VALUES(?,?,?,?,?,?,?,?,?,?,?)
+Array
+(
+    [0] => sssssssssss
+    [1] => EMPLOYEEBRIDGERECORD_REPORT_CUSTOM
+    [2] => q
+    [3] => root
+    [4] => a:2:{i:0;s:15:''Employee Emp ID'';i:1;s:16:''Record Record ID'';}
+    [5] => a:2:{i:0;s:0:'''';i:1;s:0:'''';}
+    [6] => a:2:{i:0;s:0:'''';i:1;s:0:'''';}
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+)
+","/APC_Student_Assistant_System/modules/reporter_employeebridgerecord.php"
+52,"52","::1","root","2016-12-05 05:02:49","Pressed delete button","/APC_Student_Assistant_System/modules/reporter_employeebridgerecord.php"
+53,"53","::1","root","2016-12-05 05:02:49","Query Executed: DELETE FROM cobalt_reporter WHERE module_name = ? AND report_name = ?
+Array
+(
+    [0] => ss
+    [1] => EMPLOYEEBRIDGERECORD_REPORT_CUSTOM
+    [2] => q
+)
+","/APC_Student_Assistant_System/modules/reporter_employeebridgerecord.php"
+54,"54","::1","root","2016-12-05 05:08:39","Pressed submit button","/APC_Student_Assistant_System/modules/reporter_student.php"
+55,"55","::1","root","2016-12-05 05:08:47","Failed file download:  (C:\xampp\htdocs/APC_Student_Assistant_System/tmp/rpt_csv_tmp/)","/APC_Student_Assistant_System/download_csv_tmp_store.php"
+56,"56","::1","root","2016-12-05 05:10:18","Failed file download:  (C:\xampp\htdocs/APC_Student_Assistant_System/tmp/rpt_csv_tmp/)","/APC_Student_Assistant_System/download_csv_tmp_store.php"
+57,"57","::1","root","2016-12-05 05:13:04","Pressed submit button","/APC_Student_Assistant_System/modules/reporter_employee.php"
+58,"58","::1","root","2016-12-05 05:13:07","Failed file download:  (C:\xampp\htdocs/APC_Student_Assistant_System/tmp/rpt_csv_tmp/)","/APC_Student_Assistant_System/download_csv_tmp_store.php"
+59,"59","::1","root","2016-12-05 13:15:28","Pressed submit button","/APC_Student_Assistant_System/modules/add_employee.php"
+60,"60","::1","root","2016-12-05 13:15:28","Query Executed: INSERT INTO employee(Emp_id, Emp_last_name, Emp_first_name, Emp_middle_name, Email, Address, Postal_code, Tel_num, Mobile_num, Department_name, Gender, Civil_status, Birth_date, Birth_place, Religion, TIN_num) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+Array
+(
+    [0] => isssssiissssssss
+    [1] => 2009100200
+    [2] => Dela Cruz
+    [3] => Juan Miguel
+    [4] => L
+    [5] => juandelacruz@jdc.com
+    [6] => 123 Test St., Debug, Baguio City
+    [7] => 5555
+    [8] => 6544565
+    [9] => 09271234501
+    [10] => Guidance Office
+    [11] => Male
+    [12] => Married
+    [13] => 1956-01-07
+    [14] => Mandaluyong
+    [15] => Roman Catholic
+    [16] => 66666666666
+)
+","/APC_Student_Assistant_System/modules/add_employee.php"
+61,"61","::1","root","2016-12-05 13:16:20","Pressed cancel button","/APC_Student_Assistant_System/sysadmin/add_user_role.php"
+62,"62","::1","root","2016-12-05 13:16:41","Pressed submit button","/APC_Student_Assistant_System/sysadmin/add_person.php"
+63,"63","::1","root","2016-12-05 13:16:41","Query Executed: INSERT INTO person(person_id, first_name, middle_name, last_name, gender) VALUES(?,?,?,?,?)
+Array
+(
+    [0] => issss
+    [1] => 
+    [2] => Juan Miguel
+    [3] => L
+    [4] => Dela Cruz
+    [5] => Male
+)
+","/APC_Student_Assistant_System/sysadmin/add_person.php"
+64,"64","::1","root","2016-12-05 13:17:26","Pressed submit button","/APC_Student_Assistant_System/sysadmin/add_user.php"
+65,"65","::1","root","2016-12-05 13:17:27","Query Executed: INSERT INTO user(username, password, salt, iteration, method, person_id, role_id, skin_id) VALUES(?,?,?,?,?,?,?,?)
+Array
+(
+    [0] => sssisiii
+    [1] => jmdelacruz
+    [2] => $2y$12$Udky9MiMkTsXHdcJwjSsOuCTHEWnWePzxBTZM5yuEQ2XavavpuGHW
+    [3] => Udky9MiMkTsXHdcJwjSsOw
+    [4] => 12
+    [5] => blowfish
+    [6] => 4
+    [7] => 4
+    [8] => 1
+)
+","/APC_Student_Assistant_System/sysadmin/add_user.php"
+66,"66","::1","root","2016-12-05 13:17:27","Query executed: INSERT `user_passport` SELECT 'jmdelacruz', `link_id` FROM user_role_links WHERE role_id='4'","/APC_Student_Assistant_System/sysadmin/add_user.php"
+67,"67","::1","root","2016-12-05 13:17:29","Logged out","/APC_Student_Assistant_System/end.php"
+68,"68","::1","jmdelacruz","2016-12-05 13:17:34","Logged in","/APC_Student_Assistant_System/login.php"
+69,"69","::1","jmdelacruz","2016-12-05 13:17:53","Logged out","/APC_Student_Assistant_System/end.php"
+70,"70","::1","root","2016-12-05 13:19:57","Logged in","/APC_Student_Assistant_System/login.php"
+71,"71","::1","root","2016-12-05 13:20:22","Pressed submit button","/APC_Student_Assistant_System/modules/reporter_employee.php"
+72,"72","::1","root","2016-12-05 13:20:35","Failed file download:  (C:\xampp\htdocs/APC_Student_Assistant_System/tmp/rpt_csv_tmp/)","/APC_Student_Assistant_System/download_csv_tmp_store.php"
+73,"73","::1","root","2016-12-05 13:21:37","Pressed submit button","/APC_Student_Assistant_System/modules/csv_employeebridgerecord.php"
+74,"74","::1","root","2016-12-05 13:21:37","Exported table data to CSV","/APC_Student_Assistant_System/modules/csv_employeebridgerecord.php"
+75,"75","::1","root","2016-12-05 13:21:39","Failed file download:  (C:\xampp\htdocs/APC_Student_Assistant_System/tmp/)","/APC_Student_Assistant_System/download_generic.php"
+76,"76","::1","root","2016-12-05 13:32:03","Pressed submit button","/APC_Student_Assistant_System/modules/reporter_employee.php"
+77,"77","::1","root","2016-12-05 13:32:04","Successful file download: root_EMPLOYEE_REPORT_CUSTOM_2016-12-05_01-32pm.csv (C:\xampp\htdocs/APC_Student_Assistant_System/tmp/rpt_csv_tmp/745b75b7697aac063ca5d233ed2cd823c7b2bf1croot_EMPLOYEE_REPORT_CUSTOM_2016-12-05_01-32pm.csv)","/APC_Student_Assistant_System/download_csv_tmp_store.php"
+78,"78","::1","root","2016-12-05 13:34:28","Pressed submit button","/APC_Student_Assistant_System/modules/csv_employee.php"
+79,"79","::1","root","2016-12-05 13:34:28","Exported table data to CSV","/APC_Student_Assistant_System/modules/csv_employee.php"
+80,"80","::1","root","2016-12-05 13:34:30","Successful file download: root_employee_2016-12-05.csv (C:\xampp\htdocs/APC_Student_Assistant_System/tmp/abe9afad8ab08c25746c2c02437749ce3c1d2afaroot_employee_2016-12-05.csv)","/APC_Student_Assistant_System/download_generic.php"
+81,"81","::1","root","2016-12-05 13:35:28","Pressed submit button","/APC_Student_Assistant_System/sysadmin/security_monitor.php"
+82,"82","::1","root","2016-12-05 13:35:53","Pressed submit button","/APC_Student_Assistant_System/sysadmin/security_monitor.php"
+83,"83","::1","root","2016-12-05 13:38:24","Query executed: DELETE FROM user_role_links WHERE role_id='3'","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+84,"84","::1","root","2016-12-05 13:38:24","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('3', '47')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+85,"85","::1","root","2016-12-05 13:38:24","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('3', '51')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+86,"86","::1","root","2016-12-05 13:38:24","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('3', '59')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+87,"87","::1","root","2016-12-05 13:38:27","Pressed cancel button","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+88,"88","::1","root","2016-12-05 13:38:30","Query executed: DELETE FROM user_passport WHERE username IN ('lmcruz')","/APC_Student_Assistant_System/sysadmin/role_permissions_cascade.php"
+89,"89","::1","root","2016-12-05 13:38:30","Query executed: INSERT `user_passport` SELECT 'lmcruz', `link_id` FROM user_role_links WHERE role_id='3'","/APC_Student_Assistant_System/sysadmin/role_permissions_cascade.php"
+90,"90","::1","root","2016-12-05 13:38:32","Pressed cancel button","/APC_Student_Assistant_System/sysadmin/role_permissions_cascade.php"
+91,"91","::1","root","2016-12-05 13:39:07","Query executed: DELETE FROM user_role_links WHERE role_id='4'","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+92,"92","::1","root","2016-12-05 13:39:07","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('4', '49')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+93,"93","::1","root","2016-12-05 13:39:07","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('4', '52')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+94,"94","::1","root","2016-12-05 13:39:07","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('4', '50')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+95,"95","::1","root","2016-12-05 13:39:07","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('4', '47')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+96,"96","::1","root","2016-12-05 13:39:07","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('4', '51')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+97,"97","::1","root","2016-12-05 13:39:07","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('4', '59')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+98,"98","::1","root","2016-12-05 13:39:09","Pressed cancel button","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+99,"99","::1","root","2016-12-05 13:39:35","Query executed: DELETE FROM user_role_links WHERE role_id='4'","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+100,"100","::1","root","2016-12-05 13:39:35","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('4', '49')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+101,"101","::1","root","2016-12-05 13:39:35","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('4', '52')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+102,"102","::1","root","2016-12-05 13:39:35","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('4', '50')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+103,"103","::1","root","2016-12-05 13:39:35","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('4', '39')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+104,"104","::1","root","2016-12-05 13:39:35","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('4', '47')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+105,"105","::1","root","2016-12-05 13:39:35","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('4', '51')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+106,"106","::1","root","2016-12-05 13:39:35","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('4', '59')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+107,"107","::1","root","2016-12-05 13:39:37","Pressed cancel button","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+108,"108","::1","root","2016-12-05 13:39:40","Query executed: DELETE FROM user_passport WHERE username IN ('jmdelacruz','juanluna')","/APC_Student_Assistant_System/sysadmin/role_permissions_cascade.php"
+109,"109","::1","root","2016-12-05 13:39:40","Query executed: INSERT `user_passport` SELECT 'jmdelacruz', `link_id` FROM user_role_links WHERE role_id='4'","/APC_Student_Assistant_System/sysadmin/role_permissions_cascade.php"
+110,"110","::1","root","2016-12-05 13:39:40","Query executed: INSERT `user_passport` SELECT 'juanluna', `link_id` FROM user_role_links WHERE role_id='4'","/APC_Student_Assistant_System/sysadmin/role_permissions_cascade.php"
+111,"111","::1","root","2016-12-05 13:39:43","Logged out","/APC_Student_Assistant_System/end.php"
+112,"112","::1","juanluna","2016-12-05 13:39:48","Logged in","/APC_Student_Assistant_System/login.php"
+113,"113","::1","juanluna","2016-12-05 13:39:56","Pressed cancel button","/APC_Student_Assistant_System/modules/listview_employee.php"
+114,"114","::1","juanluna","2016-12-05 13:40:16","Pressed cancel button","/APC_Student_Assistant_System/modules/detailview_employee.php"
+115,"115","::1","juanluna","2016-12-05 13:48:20","Pressed cancel button","/APC_Student_Assistant_System/modules/add_reserve.php"
+116,"116","::1","juanluna","2016-12-05 13:53:47","Pressed cancel button","/APC_Student_Assistant_System/modules/add_reserve.php"
+117,"117","::1","juanluna","2016-12-05 13:55:10","Pressed cancel button","/APC_Student_Assistant_System/modules/add_reserve.php"
+118,"118","::1","juanluna","2016-12-05 13:55:21","Logged out","/APC_Student_Assistant_System/end.php"
+119,"119","::1","root","2016-12-05 13:55:28","Logged in","/APC_Student_Assistant_System/login.php"
+120,"120","::1","root","2016-12-05 13:57:42","Logged out","/APC_Student_Assistant_System/end.php"
+121,"121","::1","juanluna","2016-12-05 13:57:48","Logged in","/APC_Student_Assistant_System/login.php"
+122,"122","::1","juanluna","2016-12-05 13:58:49","Pressed cancel button","/APC_Student_Assistant_System/modules/add_reserve.php"
+123,"123","::1","juanluna","2016-12-05 13:59:00","Pressed cancel button","/APC_Student_Assistant_System/modules/add_reserve.php"
+124,"124","::1","juanluna","2016-12-05 13:59:06","Pressed cancel button","/APC_Student_Assistant_System/modules/add_reserve.php"
+125,"125","::1","juanluna","2016-12-05 13:59:08","Pressed cancel button","/APC_Student_Assistant_System/modules/listview_reserve.php"
+126,"126","::1","juanluna","2016-12-05 13:59:21","Pressed cancel button","/APC_Student_Assistant_System/modules/add_reserve.php"
+127,"127","::1","juanluna","2016-12-05 14:01:33","Pressed submit button","/APC_Student_Assistant_System/modules/add_reserve.php"
+128,"128","::1","juanluna","2016-12-05 14:01:43","Pressed submit button","/APC_Student_Assistant_System/modules/add_reserve.php"
+129,"129","::1","juanluna","2016-12-05 14:01:43","Pressed cancel button","/APC_Student_Assistant_System/modules/add_reserve.php"
+130,"130","::1","juanluna","2016-12-05 14:01:47","Pressed submit button","/APC_Student_Assistant_System/modules/add_reserve.php"
+131,"131","::1","juanluna","2016-12-05 14:02:56","Pressed submit button","/APC_Student_Assistant_System/modules/add_reserve.php"
+132,"132","::1","juanluna","2016-12-05 14:08:02","Pressed cancel button","/APC_Student_Assistant_System/modules/add_reserve.php"
+133,"133","::1","juanluna","2016-12-05 14:08:04","Pressed cancel button","/APC_Student_Assistant_System/modules/listview_reserve.php"
+134,"134","::1","juanluna","2016-12-05 14:09:50","Pressed cancel button","/APC_Student_Assistant_System/modules/add_reserve.php"
+135,"135","::1","juanluna","2016-12-05 14:10:53","Pressed submit button","/APC_Student_Assistant_System/modules/add_reserve.php"
+136,"136","::1","juanluna","2016-12-05 14:11:35","Pressed submit button","/APC_Student_Assistant_System/modules/add_reserve.php"
+137,"137","::1","juanluna","2016-12-05 14:12:53","Pressed submit button","/APC_Student_Assistant_System/modules/add_reserve.php"
+138,"138","::1","juanluna","2016-12-05 14:12:53","Query Executed: INSERT INTO reserve(Reserve_id, Reserve_date, Reserve_text, Reserve_qty, Department_name, Status, Employee_Employee_id) VALUES(?,?,?,?,?,?,?)
+Array
+(
+    [0] => ississi
+    [1] => 
+    [2] => 2016-12-10
+    [3] => need 5
+    [4] => 5
+    [5] => OSA
+    [6] => Pending
+    [7] => 2010100001
+)
+","/APC_Student_Assistant_System/modules/add_reserve.php"
+139,"139","::1","juanluna","2016-12-05 14:13:35","Pressed submit button","/APC_Student_Assistant_System/modules/add_reserve.php"
+140,"140","::1","juanluna","2016-12-05 14:13:35","Query Executed: INSERT INTO reserve(Reserve_id, Reserve_date, Reserve_text, Reserve_qty, Department_name, Status, Employee_Employee_id) VALUES(?,?,?,?,?,?,?)
+Array
+(
+    [0] => ississi
+    [1] => 
+    [2] => 2044-09-03
+    [3] => asd
+    [4] => 7
+    [5] => Student Affairs Office
+    [6] => Pending
+    [7] => 2010100001
+)
+","/APC_Student_Assistant_System/modules/add_reserve.php"
+141,"141","::1","juanluna","2016-12-05 14:13:46","Logged out","/APC_Student_Assistant_System/end.php"
+142,"142","::1","jmdelacruz","2016-12-05 14:13:51","Logged in","/APC_Student_Assistant_System/login.php"
+143,"143","::1","jmdelacruz","2016-12-05 14:14:50","Pressed cancel button","/APC_Student_Assistant_System/modules/add_reserve.php"
+144,"144","::1","jmdelacruz","2016-12-05 14:15:03","Pressed submit button","/APC_Student_Assistant_System/modules/add_reserve.php"
+145,"145","::1","jmdelacruz","2016-12-05 14:15:03","Query Executed: INSERT INTO reserve(Reserve_id, Reserve_date, Reserve_text, Reserve_qty, Department_name, Status, Employee_Employee_id) VALUES(?,?,?,?,?,?,?)
+Array
+(
+    [0] => ississi
+    [1] => 
+    [2] => 2016-12-15
+    [3] => need 10
+    [4] => 10
+    [5] => Office Registrar
+    [6] => Pending
+    [7] => 2009100200
+)
+","/APC_Student_Assistant_System/modules/add_reserve.php"
+146,"146","::1","jmdelacruz","2016-12-05 14:15:07","Logged out","/APC_Student_Assistant_System/end.php"
+147,"147","::1","juanluna","2016-12-05 14:15:12","Logged in","/APC_Student_Assistant_System/login.php"
+148,"148","::1","juanluna","2016-12-05 14:15:49","Pressed cancel button","/APC_Student_Assistant_System/modules/add_reserve.php"
+149,"149","::1","juanluna","2016-12-05 14:15:56","Pressed cancel button","/APC_Student_Assistant_System/modules/edit_reserve.php"
+150,"150","::1","juanluna","2016-12-05 14:15:59","Pressed cancel button","/APC_Student_Assistant_System/modules/edit_reserve.php"
+151,"151","::1","juanluna","2016-12-05 14:17:49","Pressed cancel button","/APC_Student_Assistant_System/modules/listview_reserve.php"
+152,"152","::1","juanluna","2016-12-05 14:19:07","Pressed cancel button","/APC_Student_Assistant_System/modules/listview_record.php"
+153,"153","::1","juanluna","2016-12-05 14:19:15","Logged out","/APC_Student_Assistant_System/end.php"
+154,"154","::1","root","2016-12-05 14:19:20","Logged in","/APC_Student_Assistant_System/login.php"
+155,"155","::1","root","2016-12-05 14:19:31","Pressed cancel button","/APC_Student_Assistant_System/modules/add_reserve.php"
+156,"156","::1","root","2016-12-05 14:22:14","Pressed cancel button","/APC_Student_Assistant_System/modules/reporter_employee.php"
+157,"157","::1","root","2016-12-05 14:25:28","Pressed cancel button","/APC_Student_Assistant_System/modules/add_reserve.php"
+158,"158","::1","root","2016-12-05 14:25:44","Pressed cancel button","/APC_Student_Assistant_System/modules/add_record.php"
+159,"159","::1","root","2016-12-05 15:36:10","Pressed cancel button","/APC_Student_Assistant_System/sysadmin/listview_user_role.php"
+160,"160","::1","root","2016-12-05 15:38:08","Pressed submit button","/APC_Student_Assistant_System/modules/add_student.php"
+161,"161","::1","root","2016-12-05 15:38:08","Query Executed: INSERT INTO student(Student_id, Student_last_name, Student_first_name, Student_middle_name, Birth_date, Birth_place, Entry_level, Nationality, Gender, Address, Postal_code, Tel_num, Mobile_num, Email, Religion, Civil_status) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+Array
+(
+    [0] => isssssssssiissss
+    [1] => 2013100100
+    [2] => Romero
+    [3] => Jun Kimuel
+    [4] => C
+    [5] => 1982-06-13
+    [6] => Taguig City
+    [7] => Continuing
+    [8] => Filipino
+    [9] => Male
+    [10] => 56 Mockingbird Lane, Bluejay, Taguig City
+    [11] => 5524
+    [12] => 1234567
+    [13] => 09123456789
+    [14] => ucromero@student.apc.edu.ph
+    [15] => Roman Catholic
+    [16] => Single
+)
+","/APC_Student_Assistant_System/modules/add_student.php"
+162,"162","::1","root","2016-12-05 15:40:26","Pressed submit button","/APC_Student_Assistant_System/modules/add_scholarship.php"
+163,"163","::1","root","2016-12-05 15:40:30","Pressed submit button","/APC_Student_Assistant_System/modules/add_scholarship.php"
+164,"164","::1","root","2016-12-05 15:40:30","Query Executed: INSERT INTO scholarship(Scholarship_id, Scholarship_code, Scholarship_description, Scholarship_group, Discount, Waive_fee, Scholarship_apply, Required_GPA, SA_hours, Program_apply, Student_Student_id) VALUES(?,?,?,?,?,?,?,?,?,?,?)
+Array
+(
+    [0] => isssssssssi
+    [1] => 
+    [2] => A
+    [3] => SA
+    [4] => SA
+    [5] => 50
+    [6] => 0
+    [7] => yes
+    [8] => 2.0
+    [9] => 10
+    [10] => SA
+    [11] => 2011100560
+)
+","/APC_Student_Assistant_System/modules/add_scholarship.php"
+165,"165","::1","root","2016-12-05 15:40:38","Pressed cancel button","/APC_Student_Assistant_System/modules/detailview_scholarship.php"
+166,"166","::1","root","2016-12-05 15:40:42","Pressed cancel button","/APC_Student_Assistant_System/modules/add_scholarship.php"
+167,"167","::1","root","2016-12-05 15:41:05","Pressed submit button","/APC_Student_Assistant_System/modules/add_scholarship.php"
+168,"168","::1","root","2016-12-05 15:41:05","Query Executed: INSERT INTO scholarship(Scholarship_id, Scholarship_code, Scholarship_description, Scholarship_group, Discount, Waive_fee, Scholarship_apply, Required_GPA, SA_hours, Program_apply, Student_Student_id) VALUES(?,?,?,?,?,?,?,?,?,?,?)
+Array
+(
+    [0] => isssssssssi
+    [1] => 
+    [2] => A
+    [3] => SA
+    [4] => SA
+    [5] => 50
+    [6] => 0
+    [7] => yes
+    [8] => 2.0
+    [9] => 10
+    [10] => SA
+    [11] => 2013100100
+)
+","/APC_Student_Assistant_System/modules/add_scholarship.php"
+169,"169","::1","root","2016-12-05 15:44:07","Pressed cancel button","/APC_Student_Assistant_System/modules/listview_scholarship.php"
+170,"170","::1","root","2016-12-05 15:46:22","Pressed cancel button","/APC_Student_Assistant_System/modules/detailview_scholarship.php"
+171,"171","::1","root","2016-12-05 15:46:46","Pressed cancel button","/APC_Student_Assistant_System/modules/listview_scholarship.php"
+172,"172","::1","root","2016-12-05 15:46:52","Pressed cancel button","/APC_Student_Assistant_System/modules/listview_studentbridgeterm.php"
+173,"173","::1","root","2016-12-05 15:47:24","Pressed submit button","/APC_Student_Assistant_System/sysadmin/add_user_role.php"
+174,"174","::1","root","2016-12-05 15:47:26","Pressed submit button","/APC_Student_Assistant_System/sysadmin/add_user_role.php"
+175,"175","::1","root","2016-12-05 15:47:26","Query Executed: INSERT INTO user_role(role_id, role, description) VALUES(?,?,?)
+Array
+(
+    [0] => iss
+    [1] => 
+    [2] => Discipline Office
+    [3] => a
+)
+","/APC_Student_Assistant_System/sysadmin/add_user_role.php"
+176,"176","::1","root","2016-12-05 15:50:03","Query executed: DELETE FROM user_role_links WHERE role_id='5'","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+177,"177","::1","root","2016-12-05 15:50:03","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('5', '37')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+178,"178","::1","root","2016-12-05 15:50:03","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('5', '41')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+179,"179","::1","root","2016-12-05 15:50:03","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('5', '45')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+180,"180","::1","root","2016-12-05 15:50:03","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('5', '49')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+181,"181","::1","root","2016-12-05 15:50:03","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('5', '53')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+182,"182","::1","root","2016-12-05 15:50:03","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('5', '57')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+183,"183","::1","root","2016-12-05 15:50:03","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('5', '61')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+184,"184","::1","root","2016-12-05 15:50:03","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('5', '65')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+185,"185","::1","root","2016-12-05 15:50:03","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('5', '16')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+186,"186","::1","root","2016-12-05 15:50:03","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('5', '28')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+187,"187","::1","root","2016-12-05 15:50:03","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('5', '69')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+188,"188","::1","root","2016-12-05 15:50:03","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('5', '40')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+189,"189","::1","root","2016-12-05 15:50:03","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('5', '44')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+190,"190","::1","root","2016-12-05 15:50:03","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('5', '48')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+191,"191","::1","root","2016-12-05 15:50:03","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('5', '52')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+192,"192","::1","root","2016-12-05 15:50:03","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('5', '56')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+193,"193","::1","root","2016-12-05 15:50:03","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('5', '60')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+194,"194","::1","root","2016-12-05 15:50:03","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('5', '64')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+195,"195","::1","root","2016-12-05 15:50:03","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('5', '68')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+196,"196","::1","root","2016-12-05 15:50:03","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('5', '72')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+197,"197","::1","root","2016-12-05 15:50:03","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('5', '38')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+198,"198","::1","root","2016-12-05 15:50:03","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('5', '42')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+199,"199","::1","root","2016-12-05 15:50:03","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('5', '46')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+200,"200","::1","root","2016-12-05 15:50:03","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('5', '50')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+201,"201","::1","root","2016-12-05 15:50:03","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('5', '54')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+202,"202","::1","root","2016-12-05 15:50:03","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('5', '58')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+203,"203","::1","root","2016-12-05 15:50:03","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('5', '62')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+204,"204","::1","root","2016-12-05 15:50:03","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('5', '66')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+205,"205","::1","root","2016-12-05 15:50:03","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('5', '70')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+206,"206","::1","root","2016-12-05 15:50:03","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('5', '39')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+207,"207","::1","root","2016-12-05 15:50:03","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('5', '43')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+208,"208","::1","root","2016-12-05 15:50:03","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('5', '47')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+209,"209","::1","root","2016-12-05 15:50:03","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('5', '51')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+210,"210","::1","root","2016-12-05 15:50:03","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('5', '55')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+211,"211","::1","root","2016-12-05 15:50:03","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('5', '59')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+212,"212","::1","root","2016-12-05 15:50:03","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('5', '63')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+213,"213","::1","root","2016-12-05 15:50:03","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('5', '67')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+214,"214","::1","root","2016-12-05 15:50:03","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('5', '71')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+215,"215","::1","root","2016-12-05 15:50:03","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('5', '10')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+216,"216","::1","root","2016-12-05 15:50:09","Pressed cancel button","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+217,"217","::1","root","2016-12-05 15:50:22","Pressed cancel button","/APC_Student_Assistant_System/sysadmin/detailview_user_role.php"
+218,"218","::1","root","2016-12-05 15:50:42","Pressed submit button","/APC_Student_Assistant_System/sysadmin/edit_user_role.php"
+219,"219","::1","root","2016-12-05 15:50:42","Query Executed: UPDATE user_role SET role = ?, description = ? WHERE role_id = ?
+Array
+(
+    [0] => ssi
+    [1] => Discipline Office
+    [2] => Has full access over SAS System
+    [3] => 5
+)
+","/APC_Student_Assistant_System/sysadmin/edit_user_role.php"
+220,"220","::1","root","2016-12-05 16:11:09","Pressed cancel button","/APC_Student_Assistant_System/modules/listview_student.php"
+221,"221","::1","root","2016-12-05 16:11:15","Pressed cancel button","/APC_Student_Assistant_System/modules/detailview_employee.php"
+222,"222","::1","root","2016-12-05 16:11:19","Pressed cancel button","/APC_Student_Assistant_System/modules/add_employee.php"
+223,"223","::1","root","2016-12-05 16:14:08","Pressed cancel button","/APC_Student_Assistant_System/sysadmin/add_user_links.php"
+224,"224","::1","root","2016-12-05 16:18:03","Pressed cancel button","/APC_Student_Assistant_System/modules/add_record.php"
+225,"225","::1","root","2016-12-05 16:27:06","Pressed submit button","/APC_Student_Assistant_System/sysadmin/add_user_links.php"
+226,"226","::1","root","2016-12-05 16:27:12","Pressed submit button","/APC_Student_Assistant_System/sysadmin/add_user_links.php"
+227,"227","::1","root","2016-12-05 16:27:12","Query Executed: INSERT INTO user_links(link_id, name, target, descriptive_title, description, passport_group_id, show_in_tasklist, status, icon, priority) VALUES(?,?,?,?,?,?,?,?,?,?)
+Array
+(
+    [0] => issssisssi
+    [1] => 
+    [2] => SA Timelog
+    [3] => modules/student_timelog.php
+    [4] => Student Timelog
+    [5] => This is where student times in and out of their duties
+    [6] => 1
+    [7] => Yes
+    [8] => On
+    [9] => 0
+    [10] => 
+)
+","/APC_Student_Assistant_System/sysadmin/add_user_links.php"
+228,"228","::1","root","2016-12-05 16:27:29","Pressed submit button","/APC_Student_Assistant_System/sysadmin/edit_user_links.php"
+229,"229","::1","root","2016-12-05 16:27:29","Query Executed: UPDATE user_links SET name = ?, target = ?, descriptive_title = ?, description = ?, passport_group_id = ?, show_in_tasklist = ?, status = ?, icon = ?, priority = ? WHERE link_id = ?
+Array
+(
+    [0] => ssssisssii
+    [1] => SA Timelog
+    [2] => modules/student_timelog.php
+    [3] => Student Timelog
+    [4] => This is where student times in and out of their duties
+    [5] => 1
+    [6] => Yes
+    [7] => On
+    [8] => form3.jpg
+    [9] => 0
+    [10] => 73
+)
+","/APC_Student_Assistant_System/sysadmin/edit_user_links.php"
+230,"230","::1","root","2016-12-05 16:27:54","Query executed: DELETE FROM user_role_links WHERE role_id='1'","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+231,"231","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '33')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+232,"232","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '37')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+233,"233","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '41')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+234,"234","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '4')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+235,"235","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '45')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+236,"236","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '49')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+237,"237","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '53')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+238,"238","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '57')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+239,"239","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '61')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+240,"240","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '65')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+241,"241","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '16')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+242,"242","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '28')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+243,"243","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '69')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+244,"244","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '8')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+245,"245","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '20')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+246,"246","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '24')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+247,"247","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '12')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+248,"248","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '35')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+249,"249","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '36')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+250,"250","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '40')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+251,"251","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '44')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+252,"252","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '7')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+253,"253","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '48')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+254,"254","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '52')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+255,"255","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '56')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+256,"256","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '60')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+257,"257","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '64')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+258,"258","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '68')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+259,"259","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '19')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+260,"260","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '31')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+261,"261","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '72')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+262,"262","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '11')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+263,"263","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '23')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+264,"264","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '27')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+265,"265","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '15')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+266,"266","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '34')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+267,"267","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '38')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+268,"268","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '42')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+269,"269","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '5')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+270,"270","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '46')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+271,"271","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '50')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+272,"272","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '54')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+273,"273","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '58')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+274,"274","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '62')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+275,"275","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '66')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+276,"276","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '17')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+277,"277","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '29')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+278,"278","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '70')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+279,"279","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '9')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+280,"280","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '21')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+281,"281","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '25')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+282,"282","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '13')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+283,"283","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '39')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+284,"284","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '43')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+285,"285","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '1')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+286,"286","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '6')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+287,"287","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '47')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+288,"288","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '51')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+289,"289","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '32')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+290,"290","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '55')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+291,"291","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '3')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+292,"292","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '2')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+293,"293","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '59')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+294,"294","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '73')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+295,"295","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '63')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+296,"296","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '67')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+297,"297","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '18')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+298,"298","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '30')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+299,"299","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '71')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+300,"300","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '10')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+301,"301","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '22')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+302,"302","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '26')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+303,"303","::1","root","2016-12-05 16:27:54","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '14')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+304,"304","::1","root","2016-12-05 16:27:58","Pressed cancel button","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+305,"305","::1","root","2016-12-05 16:28:01","Query executed: DELETE FROM user_passport WHERE username IN ('root')","/APC_Student_Assistant_System/sysadmin/role_permissions_cascade.php"
+306,"306","::1","root","2016-12-05 16:28:01","Query executed: INSERT `user_passport` SELECT 'root', `link_id` FROM user_role_links WHERE role_id='1'","/APC_Student_Assistant_System/sysadmin/role_permissions_cascade.php"
+307,"307","::1","root","2016-12-05 16:28:03","Pressed cancel button","/APC_Student_Assistant_System/sysadmin/role_permissions_cascade.php"
+308,"308","::1","root","2016-12-05 16:28:31","Pressed submit button","/APC_Student_Assistant_System/sysadmin/edit_user_links.php"
+309,"309","::1","root","2016-12-05 16:28:31","Query Executed: UPDATE user_links SET name = ?, target = ?, descriptive_title = ?, description = ?, passport_group_id = ?, show_in_tasklist = ?, status = ?, icon = ?, priority = ? WHERE link_id = ?
+Array
+(
+    [0] => ssssisssii
+    [1] => SA Timelog
+    [2] => modules/student_timelog.php
+    [3] => Student Timelog
+    [4] => This is where student times in and out of their duties
+    [5] => 1
+    [6] => Yes
+    [7] => On
+    [8] => form3.png
+    [9] => 0
+    [10] => 73
+)
+","/APC_Student_Assistant_System/sysadmin/edit_user_links.php"
+310,"310","::1","root","2016-12-05 16:28:46","Logged out","/APC_Student_Assistant_System/end.php"
+311,"311","::1","root","2016-12-05 16:28:52","Logged in","/APC_Student_Assistant_System/login.php"
+312,"312","::1","root","2016-12-05 16:31:21","Logged out","/APC_Student_Assistant_System/end.php"
+313,"313","::1","root","2016-12-05 16:31:26","Logged in","/APC_Student_Assistant_System/login.php"
+314,"314","::1","root","2016-12-05 16:31:46","Query executed: DELETE FROM user_role_links WHERE role_id='3'","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+315,"315","::1","root","2016-12-05 16:31:46","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('3', '47')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+316,"316","::1","root","2016-12-05 16:31:46","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('3', '51')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+317,"317","::1","root","2016-12-05 16:31:46","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('3', '59')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+318,"318","::1","root","2016-12-05 16:31:46","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('3', '73')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+319,"319","::1","root","2016-12-05 16:31:52","Pressed cancel button","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+320,"320","::1","root","2016-12-05 16:31:57","Query executed: DELETE FROM user_passport WHERE username IN ('lmcruz')","/APC_Student_Assistant_System/sysadmin/role_permissions_cascade.php"
+321,"321","::1","root","2016-12-05 16:31:57","Query executed: INSERT `user_passport` SELECT 'lmcruz', `link_id` FROM user_role_links WHERE role_id='3'","/APC_Student_Assistant_System/sysadmin/role_permissions_cascade.php"
+322,"322","::1","root","2016-12-05 16:31:59","Pressed cancel button","/APC_Student_Assistant_System/sysadmin/role_permissions_cascade.php"
+323,"323","::1","root","2016-12-05 16:32:00","Logged out","/APC_Student_Assistant_System/end.php"
+324,"324","::1","lmcruz","2016-12-05 16:32:09","Logged in","/APC_Student_Assistant_System/login.php"
+325,"325","::1","lmcruz","2016-12-05 16:38:51","Logged out","/APC_Student_Assistant_System/end.php"
+326,"326","::1","root","2016-12-05 16:39:24","Logged in","/APC_Student_Assistant_System/login.php"
+327,"327","::1","root","2016-12-05 16:40:22","Pressed submit button","/APC_Student_Assistant_System/sysadmin/add_person.php"
+328,"328","::1","root","2016-12-05 16:40:22","Query Executed: INSERT INTO person(person_id, first_name, middle_name, last_name, gender) VALUES(?,?,?,?,?)
+Array
+(
+    [0] => issss
+    [1] => 
+    [2] => Jun Kimuel
+    [3] => C
+    [4] => Romero
+    [5] => Male
+)
+","/APC_Student_Assistant_System/sysadmin/add_person.php"
+329,"329","::1","root","2016-12-05 16:40:48","Pressed submit button","/APC_Student_Assistant_System/sysadmin/add_user.php"
+330,"330","::1","root","2016-12-05 16:40:49","Query Executed: INSERT INTO user(username, password, salt, iteration, method, person_id, role_id, skin_id) VALUES(?,?,?,?,?,?,?,?)
+Array
+(
+    [0] => sssisiii
+    [1] => ucromero
+    [2] => $2y$12$6NT5eUuBYfBmNHtMSYRIgOAfVKUK9Qr8edPYy8yIdEU.BkPRSRK62
+    [3] => 6NT5eUuBYfBmNHtMSYRIgQ
+    [4] => 12
+    [5] => blowfish
+    [6] => 5
+    [7] => 3
+    [8] => 1
+)
+","/APC_Student_Assistant_System/sysadmin/add_user.php"
+331,"331","::1","root","2016-12-05 16:40:49","Query executed: INSERT `user_passport` SELECT 'ucromero', `link_id` FROM user_role_links WHERE role_id='3'","/APC_Student_Assistant_System/sysadmin/add_user.php"
+332,"332","::1","root","2016-12-05 16:40:52","Logged out","/APC_Student_Assistant_System/end.php"
+333,"333","::1","ucromero","2016-12-05 16:41:01","Logged in","/APC_Student_Assistant_System/login.php"
+334,"334","::1","ucromero","2016-12-05 16:42:01","Pressed cancel button","/APC_Student_Assistant_System/modules/listview_student.php"
+335,"335","::1","ucromero","2016-12-05 16:52:48","Logged out","/APC_Student_Assistant_System/end.php"
+336,"336","::1","root","2016-12-05 16:52:51","Logged in","/APC_Student_Assistant_System/login.php"
+337,"337","::1","root","2016-12-05 16:53:07","Query executed: DELETE FROM user_role_links WHERE role_id='3'","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+338,"338","::1","root","2016-12-05 16:53:07","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('3', '47')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+339,"339","::1","root","2016-12-05 16:53:07","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('3', '51')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+340,"340","::1","root","2016-12-05 16:53:07","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('3', '59')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+341,"341","::1","root","2016-12-05 16:53:07","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('3', '73')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+342,"342","::1","root","2016-12-05 16:53:07","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('3', '63')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+343,"343","::1","root","2016-12-05 16:53:11","Pressed cancel button","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+344,"344","::1","root","2016-12-05 16:53:15","Pressed cancel button","/APC_Student_Assistant_System/sysadmin/role_permissions_cascade.php"
+345,"345","::1","root","2016-12-05 16:53:18","Query executed: DELETE FROM user_passport WHERE username IN ('lmcruz','ucromero')","/APC_Student_Assistant_System/sysadmin/role_permissions_cascade.php"
+346,"346","::1","root","2016-12-05 16:53:18","Query executed: INSERT `user_passport` SELECT 'lmcruz', `link_id` FROM user_role_links WHERE role_id='3'","/APC_Student_Assistant_System/sysadmin/role_permissions_cascade.php"
+347,"347","::1","root","2016-12-05 16:53:18","Query executed: INSERT `user_passport` SELECT 'ucromero', `link_id` FROM user_role_links WHERE role_id='3'","/APC_Student_Assistant_System/sysadmin/role_permissions_cascade.php"
+348,"348","::1","root","2016-12-05 16:54:00","Query executed: DELETE FROM user_role_links WHERE role_id='3'","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+349,"349","::1","root","2016-12-05 16:54:00","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('3', '61')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+350,"350","::1","root","2016-12-05 16:54:00","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('3', '64')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+351,"351","::1","root","2016-12-05 16:54:00","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('3', '66')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+352,"352","::1","root","2016-12-05 16:54:00","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('3', '47')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+353,"353","::1","root","2016-12-05 16:54:00","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('3', '51')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+354,"354","::1","root","2016-12-05 16:54:00","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('3', '59')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+355,"355","::1","root","2016-12-05 16:54:00","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('3', '73')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+356,"356","::1","root","2016-12-05 16:54:00","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('3', '63')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+357,"357","::1","root","2016-12-05 16:54:19","Pressed cancel button","/APC_Student_Assistant_System/modules/add_studentbridgereserve.php"
+358,"358","::1","root","2016-12-05 16:56:02","Logged out","/APC_Student_Assistant_System/end.php"
+359,"359","::1","lmcruz","2016-12-05 16:56:07","Logged in","/APC_Student_Assistant_System/login.php"
+360,"360","::1","lmcruz","2016-12-05 16:57:00","Logged out","/APC_Student_Assistant_System/end.php"
+361,"361","::1","root","2016-12-05 16:57:09","Logged in","/APC_Student_Assistant_System/login.php"
+362,"362","::1","root","2016-12-05 16:57:16","Query executed: DELETE FROM user_passport WHERE username IN ('lmcruz','ucromero')","/APC_Student_Assistant_System/sysadmin/role_permissions_cascade.php"
+363,"363","::1","root","2016-12-05 16:57:16","Query executed: INSERT `user_passport` SELECT 'lmcruz', `link_id` FROM user_role_links WHERE role_id='3'","/APC_Student_Assistant_System/sysadmin/role_permissions_cascade.php"
+364,"364","::1","root","2016-12-05 16:57:16","Query executed: INSERT `user_passport` SELECT 'ucromero', `link_id` FROM user_role_links WHERE role_id='3'","/APC_Student_Assistant_System/sysadmin/role_permissions_cascade.php"
+365,"365","::1","root","2016-12-05 16:57:19","Logged out","/APC_Student_Assistant_System/end.php"
+366,"366","::1","lmcruz","2016-12-05 16:57:24","Logged in","/APC_Student_Assistant_System/login.php"
+367,"367","::1","lmcruz","2016-12-05 16:57:55","Pressed cancel button","/APC_Student_Assistant_System/modules/add_studentbridgereserve.php"
+368,"368","::1","lmcruz","2016-12-05 16:58:15","Pressed cancel button","/APC_Student_Assistant_System/modules/detailview_reserve.php"
+369,"369","::1","lmcruz","2016-12-05 16:58:38","Pressed cancel button","/APC_Student_Assistant_System/modules/detailview_reserve.php"
+370,"370","::1","lmcruz","2016-12-05 16:59:33","Pressed cancel button","/APC_Student_Assistant_System/modules/add_studentbridgereserve.php"
+371,"371","::1","lmcruz","2016-12-05 17:00:02","Pressed cancel button","/APC_Student_Assistant_System/modules/add_studentbridgereserve.php"
+372,"372","::1","lmcruz","2016-12-05 17:00:04","Pressed cancel button","/APC_Student_Assistant_System/modules/listview_studentbridgereserve.php"
+373,"373","::1","lmcruz","2016-12-05 17:02:27","Pressed cancel button","/APC_Student_Assistant_System/modules/detailview_reserve.php"
+374,"374","::1","lmcruz","2016-12-05 17:02:46","Pressed cancel button","/APC_Student_Assistant_System/modules/add_studentbridgereserve.php"
+375,"375","::1","lmcruz","2016-12-05 17:05:20","Pressed cancel button","/APC_Student_Assistant_System/modules/add_studentbridgereserve.php"
+376,"376","::1","lmcruz","2016-12-05 17:06:56","Logged out","/APC_Student_Assistant_System/end.php"
+377,"377","::1","root","2016-12-05 17:07:01","Logged in","/APC_Student_Assistant_System/login.php"
+378,"378","::1","root","2016-12-05 17:07:18","Pressed cancel button","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+379,"379","::1","root","2016-12-05 17:09:12","Pressed submit button","/APC_Student_Assistant_System/sysadmin/add_user_links.php"
+380,"380","::1","root","2016-12-05 17:09:12","Query Executed: INSERT INTO user_links(link_id, name, target, descriptive_title, description, passport_group_id, show_in_tasklist, status, icon, priority) VALUES(?,?,?,?,?,?,?,?,?,?)
+Array
+(
+    [0] => issssisssi
+    [1] => 
+    [2] => Announcement
+    [3] => modules/announcement.php
+    [4] => Announcement Page
+    [5] => This is where students may find announcements and reserve their SA duties
+    [6] => 1
+    [7] => Yes
+    [8] => On
+    [9] => form3.png
+    [10] => 0
+)
+","/APC_Student_Assistant_System/sysadmin/add_user_links.php"
+381,"381","::1","root","2016-12-05 17:09:27","Query executed: DELETE FROM user_role_links WHERE role_id='1'","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+382,"382","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '33')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+383,"383","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '37')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+384,"384","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '41')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+385,"385","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '4')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+386,"386","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '45')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+387,"387","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '49')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+388,"388","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '53')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+389,"389","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '57')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+390,"390","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '61')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+391,"391","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '65')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+392,"392","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '16')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+393,"393","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '28')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+394,"394","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '69')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+395,"395","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '8')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+396,"396","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '20')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+397,"397","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '24')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+398,"398","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '12')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+399,"399","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '74')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+400,"400","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '35')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+401,"401","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '36')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+402,"402","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '40')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+403,"403","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '44')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+404,"404","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '7')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+405,"405","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '48')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+406,"406","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '52')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+407,"407","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '56')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+408,"408","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '60')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+409,"409","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '64')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+410,"410","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '68')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+411,"411","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '19')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+412,"412","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '31')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+413,"413","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '72')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+414,"414","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '11')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+415,"415","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '23')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+416,"416","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '27')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+417,"417","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '15')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+418,"418","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '34')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+419,"419","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '38')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+420,"420","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '42')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+421,"421","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '5')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+422,"422","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '46')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+423,"423","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '50')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+424,"424","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '54')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+425,"425","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '58')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+426,"426","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '62')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+427,"427","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '66')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+428,"428","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '17')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+429,"429","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '29')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+430,"430","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '70')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+431,"431","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '9')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+432,"432","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '21')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+433,"433","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '25')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+434,"434","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '13')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+435,"435","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '39')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+436,"436","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '43')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+437,"437","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '1')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+438,"438","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '6')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+439,"439","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '47')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+440,"440","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '51')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+441,"441","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '32')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+442,"442","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '55')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+443,"443","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '3')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+444,"444","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '2')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+445,"445","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '59')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+446,"446","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '73')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+447,"447","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '63')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+448,"448","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '67')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+449,"449","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '18')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+450,"450","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '30')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+451,"451","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '71')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+452,"452","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '10')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+453,"453","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '22')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+454,"454","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '26')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+455,"455","::1","root","2016-12-05 17:09:27","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('1', '14')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+456,"456","::1","root","2016-12-05 17:09:44","Query executed: DELETE FROM user_passport WHERE username IN ('root')","/APC_Student_Assistant_System/sysadmin/role_permissions_cascade.php"
+457,"457","::1","root","2016-12-05 17:09:44","Query executed: INSERT `user_passport` SELECT 'root', `link_id` FROM user_role_links WHERE role_id='1'","/APC_Student_Assistant_System/sysadmin/role_permissions_cascade.php"
+458,"458","::1","root","2016-12-05 17:09:45","Pressed cancel button","/APC_Student_Assistant_System/sysadmin/role_permissions_cascade.php"
+459,"459","::1","root","2016-12-05 17:09:48","Query executed: SELECT * from reserve","/APC_Student_Assistant_System/modules/announcement.php"
+460,"460","::1","root","2016-12-05 17:10:22","Query executed: SELECT * from reserve","/APC_Student_Assistant_System/modules/announcement.php"
+461,"461","::1","root","2016-12-05 18:20:18","Pressed cancel button","/APC_Student_Assistant_System/modules/detailview_reserve.php"
+462,"462","::1","root","2016-12-05 18:20:42","Pressed cancel button","/APC_Student_Assistant_System/modules/add_reserve.php"
+463,"463","::1","root","2016-12-05 18:26:27","Pressed cancel button","/APC_Student_Assistant_System/modules/listview_reserve.php"
+464,"464","::1","root","2016-12-05 19:09:49","Logged out","/APC_Student_Assistant_System/end.php"
+465,"465","::1","ucromero","2016-12-05 19:10:01","Logged in","/APC_Student_Assistant_System/login.php"
+466,"466","::1","ucromero","2016-12-05 19:11:32","Logged out","/APC_Student_Assistant_System/end.php"
+467,"467","::1","root","2016-12-05 19:11:40","Logged in","/APC_Student_Assistant_System/login.php"
+468,"468","::1","root","2016-12-05 20:00:22","Pressed submit button","/APC_Student_Assistant_System/modules/edit_reserve.php"
+469,"469","::1","root","2016-12-05 20:00:22","Query Executed: UPDATE reserve SET Reserve_date = ?, Reserve_text = ?, Reserve_qty = ?, Department_name = ?, Status = ?, Employee_Employee_id = ? WHERE Reserve_id = ?
+Array
+(
+    [0] => ssissii
+    [1] => 2016-12-15
+    [2] => need 10 SAs for enrolment proceedings
+    [3] => 10
+    [4] => Office Registrar
+    [5] => Pending
+    [6] => 2009100200
+    [7] => 3
+)
+","/APC_Student_Assistant_System/modules/edit_reserve.php"
+470,"470","::1","root","2016-12-05 21:03:49","Query executed: DELETE FROM user_role_links WHERE role_id='3'","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+471,"471","::1","root","2016-12-05 21:03:49","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('3', '61')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+472,"472","::1","root","2016-12-05 21:03:49","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('3', '74')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+473,"473","::1","root","2016-12-05 21:03:49","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('3', '64')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+474,"474","::1","root","2016-12-05 21:03:49","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('3', '66')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+475,"475","::1","root","2016-12-05 21:03:49","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('3', '47')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+476,"476","::1","root","2016-12-05 21:03:49","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('3', '51')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+477,"477","::1","root","2016-12-05 21:03:49","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('3', '59')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+478,"478","::1","root","2016-12-05 21:03:49","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('3', '73')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+479,"479","::1","root","2016-12-05 21:03:49","Query executed: INSERT INTO user_role_links(role_id, link_id) VALUES('3', '63')","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+480,"480","::1","root","2016-12-05 21:03:52","Pressed cancel button","/APC_Student_Assistant_System/sysadmin/role_permissions.php"
+481,"481","::1","root","2016-12-05 21:04:29","Query executed: DELETE FROM user_passport WHERE username IN ('lmcruz','ucromero')","/APC_Student_Assistant_System/sysadmin/role_permissions_cascade.php"
+482,"482","::1","root","2016-12-05 21:04:29","Query executed: INSERT `user_passport` SELECT 'lmcruz', `link_id` FROM user_role_links WHERE role_id='3'","/APC_Student_Assistant_System/sysadmin/role_permissions_cascade.php"
+483,"483","::1","root","2016-12-05 21:04:29","Query executed: INSERT `user_passport` SELECT 'ucromero', `link_id` FROM user_role_links WHERE role_id='3'","/APC_Student_Assistant_System/sysadmin/role_permissions_cascade.php"
+484,"484","::1","root","2016-12-05 21:04:30","Pressed cancel button","/APC_Student_Assistant_System/sysadmin/role_permissions_cascade.php"
+485,"485","::1","root","2016-12-05 21:04:32","Logged out","/APC_Student_Assistant_System/end.php"
+486,"486","::1","ucromero","2016-12-05 21:04:38","Logged in","/APC_Student_Assistant_System/login.php"
+487,"487","::1","ucromero","2016-12-05 21:05:14","Pressed cancel button","/APC_Student_Assistant_System/modules/listview_studentbridgereserve.php"
+488,"488","::1","ucromero","2016-12-05 21:05:20","Logged out","/APC_Student_Assistant_System/end.php"
+489,"489","::1","root","2016-12-05 21:05:25","Logged in","/APC_Student_Assistant_System/login.php"
+490,"490","::1","root","2016-12-05 21:29:23","Pressed cancel button","/APC_Student_Assistant_System/modules/add_reserve.php"
+491,"491","::1","root","2016-12-05 21:29:34","Logged out","/APC_Student_Assistant_System/end.php"
+492,"492","::1","juanluna","2016-12-05 21:29:38","Logged in","/APC_Student_Assistant_System/login.php"
+493,"493","::1","juanluna","2016-12-05 21:30:05","Logged out","/APC_Student_Assistant_System/end.php"
+494,"494","::1","jmdelacruz","2016-12-05 21:30:17","Logged in","/APC_Student_Assistant_System/login.php"
+495,"495","::1","jmdelacruz","2016-12-05 21:31:10","Pressed cancel button","/APC_Student_Assistant_System/modules/add_reserve.php"
+496,"496","::1","jmdelacruz","2016-12-05 21:31:13","Logged out","/APC_Student_Assistant_System/end.php"
+497,"497","::1","root","2016-12-05 21:31:18","Logged in","/APC_Student_Assistant_System/login.php"
+498,"498","::1","root","2016-12-05 21:32:06","Pressed cancel button","/APC_Student_Assistant_System/modules/add_reserve.php"
+499,"499","::1","root","2016-12-05 21:32:41","Pressed cancel button","/APC_Student_Assistant_System/modules/listview_reserve.php"
+500,"500","::1","root","2016-12-05 21:32:52","Pressed submit button","/APC_Student_Assistant_System/sysadmin/security_monitor.php"
+500,"","","","","",""

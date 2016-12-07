@@ -1,0 +1,4 @@
+#,"Emp ID","Emp Last Name","Emp First Name","Emp Middle Name","Email","Address","Postal Code","Tel Num","Mobile Num","Department Name","Gender","Civil Status","Birth Date","Birth Place","Religion","TIN Num"
+1,"2009100200","Dela Cruz","Juan Miguel","L","juandelacruz@jdc.com","123 Test St., Debug, Baguio City","5,555.00","6,544,565.00","09271234501","Guidance Office","Male","Married","1956-01-07 00:00:00","Mandaluyong","Roman Catholic","66666666666"
+2,"2010100001","Una","Juan","L","jluna@jlu.com","99 B Street, Ceedee Drive, Makati City","1,234.00","1,232,424.00","09272223304","Internship","Male","Married","2000-09-01 00:00:00","Makati","Roman Catholic","53535354545"
+2,"4,019,200,201","","","","","","6,789.00","7,776,989.00","","","","","","","",""

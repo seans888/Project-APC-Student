@@ -1,0 +1,359 @@
+#,"Entry ID","Ip Address","User","Datetime","Action","Module"
+1,"1","::1","root","2016-12-04 03:08:31","Logged in","/APC_Student_Assistant_System/login.php"
+2,"2","::1","root","2016-12-04 03:08:33","Query Executed: UPDATE user SET `password`=?, `salt`=?, `iteration`=?, `method`=? WHERE username=?
+Array
+(
+    [0] => ssiss
+    [1] => $2y$12$PCidaylyReHJIN.tOKXI8OacRpmE.ksz2ZDvvNTk8sOPQrfFykwJS
+    [2] => PCidaylyReHJIN+tOKXI8Q
+    [3] => 12
+    [4] => blowfish
+    [5] => root
+)
+","/APC_Student_Assistant_System/login.php"
+3,"3","::1","root","2016-12-04 03:13:12","Pressed submit button","/APC_Student_Assistant_System/modules/add_employee.php"
+4,"4","::1","root","2016-12-04 03:13:12","Query Executed: INSERT INTO employee(Emp_id, Emp_last_name, Emp_first_name, Emp_middle_name, Email, Address, Postal_code, Tel_num, Mobile_num, Department_name, Gender, Civil_status, Birth_date, Birth_place, Religion, TIN_num) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+Array
+(
+    [0] => isssssiissssssss
+    [1] => 1
+    [2] => Una
+    [3] => Juan
+    [4] => L
+    [5] => jluna@jlu.com
+    [6] => 99 B Street, Ceedee Drive, Makati City
+    [7] => 1234
+    [8] => 1232424
+    [9] => 09272223304
+    [10] => Internship
+    [11] => Male
+    [12] => Married
+    [13] => 2000-09-04
+    [14] => Makati
+    [15] => Roman Catholic
+    [16] => 53535354545
+)
+","/APC_Student_Assistant_System/modules/add_employee.php"
+5,"5","::1","root","2016-12-04 03:14:24","Pressed cancel button","/APC_Student_Assistant_System/modules/detailview_employee.php"
+6,"6","::1","root","2016-12-04 03:16:25","Pressed cancel button","/APC_Student_Assistant_System/modules/add_employeebridgerecord.php"
+7,"7","::1","root","2016-12-04 03:17:00","Pressed cancel button","/APC_Student_Assistant_System/modules/add_record.php"
+8,"8","::1","root","2016-12-04 03:18:20","Pressed submit button","/APC_Student_Assistant_System/modules/add_term.php"
+9,"9","::1","root","2016-12-04 03:18:21","Query Executed: INSERT INTO term(Term_id, school_year, Term_num, Term_start, Term_end, Term_hour) VALUES(?,?,?,?,?,?)
+Array
+(
+    [0] => isssss
+    [1] => 
+    [2] => 2016
+    [3] => 2
+    [4] => 2016-09-04
+    [5] => 2016-12-16
+    [6] => 10
+)
+","/APC_Student_Assistant_System/modules/add_term.php"
+10,"10","::1","root","2016-12-04 03:22:51","Pressed submit button","/APC_Student_Assistant_System/modules/edit_term.php"
+11,"11","::1","root","2016-12-04 03:23:04","Pressed submit button","/APC_Student_Assistant_System/modules/edit_term.php"
+12,"12","::1","root","2016-12-04 03:23:05","Query Executed: UPDATE term SET school_year = ?, Term_num = ?, Term_start = ?, Term_end = ?, Term_hour = ? WHERE Term_id = ?
+Array
+(
+    [0] => sssssi
+    [1] => 2016
+    [2] => 2
+    [3] => 2016-09-04
+    [4] => 2016-12-16
+    [5] => 10:00:00
+    [6] => 1
+)
+","/APC_Student_Assistant_System/modules/edit_term.php"
+13,"13","::1","root","2016-12-04 03:26:22","Pressed submit button","/APC_Student_Assistant_System/modules/edit_term.php"
+14,"14","::1","root","2016-12-04 03:26:39","Pressed submit button","/APC_Student_Assistant_System/modules/edit_term.php"
+15,"15","::1","root","2016-12-04 03:26:39","Query Executed: UPDATE term SET school_year = ?, Term_num = ?, Term_start = ?, Term_end = ?, Term_hour = ? WHERE Term_id = ?
+Array
+(
+    [0] => sssssi
+    [1] => 2016
+    [2] => 2
+    [3] => 2016-09-04
+    [4] => 2016-12-16
+    [5] => 10:00:00
+    [6] => 1
+)
+","/APC_Student_Assistant_System/modules/edit_term.php"
+16,"16","::1","root","2016-12-05 04:50:21","Logged in","/APC_Student_Assistant_System/login.php"
+17,"17","::1","root","2016-12-05 04:52:41","Pressed submit button","/APC_Student_Assistant_System/modules/add_student.php"
+18,"18","::1","root","2016-12-05 04:52:41","Query Executed: INSERT INTO student(Student_id, Student_last_name, Student_first_name, Student_middle_name, Birth_date, Birth_place, Entry_level, Nationality, Gender, Address, Postal_code, Tel_num, Mobile_num, Email, Religion, Civil_status) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+Array
+(
+    [0] => isssssssssiissss
+    [1] => 2011100560
+    [2] => Cruz
+    [3] => Lorenz Matthew
+    [4] => M
+    [5] => 1999-03-06
+    [6] => Mandaluyong
+    [7] => Transferee
+    [8] => Filipino
+    [9] => Male
+    [10] => 28 ML Quezon St., Bambang, Taguig City
+    [11] => 1637
+    [12] => 4235059
+    [13] => 09167924892
+    [14] => lmcruz@student.apc.edu.ph
+    [15] => Roman Catholic
+    [16] => Single
+)
+","/APC_Student_Assistant_System/modules/add_student.php"
+19,"19","::1","root","2016-12-05 04:55:02","Pressed submit button","/APC_Student_Assistant_System/modules/edit_student.php"
+20,"20","::1","root","2016-12-05 04:55:02","Query Executed: UPDATE student SET Student_id = ?, Student_last_name = ?, Student_first_name = ?, Student_middle_name = ?, Birth_date = ?, Birth_place = ?, Entry_level = ?, Nationality = ?, Gender = ?, Address = ?, Postal_code = ?, Tel_num = ?, Mobile_num = ?, Email = ?, Religion = ?, Civil_status = ? WHERE Student_id = ?
+Array
+(
+    [0] => isssssssssiissssi
+    [1] => 2011100560
+    [2] => Cruz
+    [3] => Lorenz Matthew
+    [4] => M
+    [5] => 1999-03-05
+    [6] => Mandaluyong
+    [7] => Transferee
+    [8] => Filipino
+    [9] => Male
+    [10] => 28 ML Quezon St., Bambang, Taguig City
+    [11] => 1637
+    [12] => 4235059
+    [13] => 09167924892
+    [14] => lmcruz@student.apc.edu.ph
+    [15] => Roman Catholic
+    [16] => Single
+    [17] => 2011100560
+)
+","/APC_Student_Assistant_System/modules/edit_student.php"
+21,"21","::1","root","2016-12-05 04:55:53","Pressed submit button","/APC_Student_Assistant_System/sysadmin/add_person.php"
+22,"22","::1","root","2016-12-05 04:55:53","Query Executed: INSERT INTO person(person_id, first_name, middle_name, last_name, gender) VALUES(?,?,?,?,?)
+Array
+(
+    [0] => issss
+    [1] => 
+    [2] => Lorenz Matthew
+    [3] => M
+    [4] => Cruz
+    [5] => Male
+)
+","/APC_Student_Assistant_System/sysadmin/add_person.php"
+23,"23","::1","root","2016-12-05 04:56:02","Pressed submit button","/APC_Student_Assistant_System/sysadmin/add_person.php"
+24,"24","::1","root","2016-12-05 04:56:02","Query Executed: INSERT INTO person(person_id, first_name, middle_name, last_name, gender) VALUES(?,?,?,?,?)
+Array
+(
+    [0] => issss
+    [1] => 
+    [2] => Juan
+    [3] => L
+    [4] => Una
+    [5] => Male
+)
+","/APC_Student_Assistant_System/sysadmin/add_person.php"
+25,"25","::1","root","2016-12-05 04:56:14","Pressed submit button","/APC_Student_Assistant_System/sysadmin/add_user_role.php"
+26,"26","::1","root","2016-12-05 04:56:16","Pressed submit button","/APC_Student_Assistant_System/sysadmin/add_user_role.php"
+27,"27","::1","root","2016-12-05 04:56:16","Query Executed: INSERT INTO user_role(role_id, role, description) VALUES(?,?,?)
+Array
+(
+    [0] => iss
+    [1] => 
+    [2] => Student Assistant
+    [3] => a
+)
+","/APC_Student_Assistant_System/sysadmin/add_user_role.php"
+28,"28","::1","root","2016-12-05 04:56:24","Pressed submit button","/APC_Student_Assistant_System/sysadmin/add_user_role.php"
+29,"29","::1","root","2016-12-05 04:56:24","Query Executed: INSERT INTO user_role(role_id, role, description) VALUES(?,?,?)
+Array
+(
+    [0] => iss
+    [1] => 
+    [2] => Departmental Coordinator
+    [3] => a
+)
+","/APC_Student_Assistant_System/sysadmin/add_user_role.php"
+30,"30","::1","root","2016-12-05 04:56:45","Pressed submit button","/APC_Student_Assistant_System/sysadmin/add_user.php"
+31,"31","::1","root","2016-12-05 04:56:45","Query Executed: INSERT INTO user(username, password, salt, iteration, method, person_id, role_id, skin_id) VALUES(?,?,?,?,?,?,?,?)
+Array
+(
+    [0] => sssisiii
+    [1] => lmcruz
+    [2] => $2y$12$WAlHuEu55ibDHbuyQ9XQZOHuYvENZmf58PG8McQetL3PERo1CHCK.
+    [3] => WAlHuEu55ibDHbuyQ9XQZQ
+    [4] => 12
+    [5] => blowfish
+    [6] => 2
+    [7] => 3
+    [8] => 1
+)
+","/APC_Student_Assistant_System/sysadmin/add_user.php"
+32,"32","::1","root","2016-12-05 04:56:45","Query executed: INSERT `user_passport` SELECT 'lmcruz', `link_id` FROM user_role_links WHERE role_id='3'","/APC_Student_Assistant_System/sysadmin/add_user.php"
+33,"33","::1","root","2016-12-05 04:57:01","Pressed submit button","/APC_Student_Assistant_System/sysadmin/add_user.php"
+34,"34","::1","root","2016-12-05 04:57:02","Query Executed: INSERT INTO user(username, password, salt, iteration, method, person_id, role_id, skin_id) VALUES(?,?,?,?,?,?,?,?)
+Array
+(
+    [0] => sssisiii
+    [1] => juanluna
+    [2] => $2y$12$pWP79FOZRy/e4qNhcytxd.fYaIg9xKsE0GcHYZO67.mfjbq4T.AjG
+    [3] => pWP79FOZRy/e4qNhcytxdA
+    [4] => 12
+    [5] => blowfish
+    [6] => 3
+    [7] => 4
+    [8] => 1
+)
+","/APC_Student_Assistant_System/sysadmin/add_user.php"
+35,"35","::1","root","2016-12-05 04:57:02","Query executed: INSERT `user_passport` SELECT 'juanluna', `link_id` FROM user_role_links WHERE role_id='4'","/APC_Student_Assistant_System/sysadmin/add_user.php"
+36,"36","::1","root","2016-12-05 04:57:05","Logged out","/APC_Student_Assistant_System/end.php"
+37,"37","::1","lmcruz","2016-12-05 04:57:11","Logged in","/APC_Student_Assistant_System/login.php"
+38,"38","::1","lmcruz","2016-12-05 04:57:26","Logged out","/APC_Student_Assistant_System/end.php"
+39,"39","::1","juanluna","2016-12-05 04:57:30","Logged in","/APC_Student_Assistant_System/login.php"
+40,"40","::1","juanluna","2016-12-05 04:57:35","Logged out","/APC_Student_Assistant_System/end.php"
+41,"41","::1","root","2016-12-05 04:57:41","Logged in","/APC_Student_Assistant_System/login.php"
+42,"42","::1","root","2016-12-05 04:58:16","Pressed submit button","/APC_Student_Assistant_System/modules/edit_employee.php"
+43,"43","::1","root","2016-12-05 04:58:16","Query Executed: UPDATE employee SET Emp_id = ?, Emp_last_name = ?, Emp_first_name = ?, Emp_middle_name = ?, Email = ?, Address = ?, Postal_code = ?, Tel_num = ?, Mobile_num = ?, Department_name = ?, Gender = ?, Civil_status = ?, Birth_date = ?, Birth_place = ?, Religion = ?, TIN_num = ? WHERE Emp_id = ?
+Array
+(
+    [0] => isssssiissssssssi
+    [1] => 2010100001
+    [2] => Una
+    [3] => Juan
+    [4] => L
+    [5] => jluna@jlu.com
+    [6] => 99 B Street, Ceedee Drive, Makati City
+    [7] => 1234
+    [8] => 1232424
+    [9] => 09272223304
+    [10] => Internship
+    [11] => Male
+    [12] => Married
+    [13] => 2000-09-01
+    [14] => Makati
+    [15] => Roman Catholic
+    [16] => 53535354545
+    [17] => 1
+)
+","/APC_Student_Assistant_System/modules/edit_employee.php"
+44,"44","::1","root","2016-12-05 04:58:19","Logged out","/APC_Student_Assistant_System/end.php"
+45,"45","::1","juanluna","2016-12-05 04:58:24","Logged in","/APC_Student_Assistant_System/login.php"
+46,"46","::1","juanluna","2016-12-05 04:58:45","Logged out","/APC_Student_Assistant_System/end.php"
+47,"47","::1","root","2016-12-05 04:59:18","Logged in","/APC_Student_Assistant_System/login.php"
+48,"48","::1","root","2016-12-05 04:59:32","Pressed submit button","/APC_Student_Assistant_System/modules/reporter_student.php"
+49,"49","::1","root","2016-12-05 05:02:05","Pressed submit button","/APC_Student_Assistant_System/modules/reporter_employeebridgerecord.php"
+50,"50","::1","root","2016-12-05 05:02:44","Query Executed: DELETE FROM cobalt_reporter WHERE module_name = ? AND report_name = ?
+Array
+(
+    [0] => ss
+    [1] => EMPLOYEEBRIDGERECORD_REPORT_CUSTOM
+    [2] => q
+)
+","/APC_Student_Assistant_System/modules/reporter_employeebridgerecord.php"
+51,"51","::1","root","2016-12-05 05:02:44","Query Executed: INSERT INTO cobalt_reporter(`module_name`,
+                            `report_name`,
+                            `username`,
+                            `show_field`,
+                            `operator`,
+                            `text_field`,
+                            `sum_field`,
+                            `count_field`,
+                            `group_field1`,
+                            `group_field2`,
+                            `group_field3`) VALUES(?,?,?,?,?,?,?,?,?,?,?)
+Array
+(
+    [0] => sssssssssss
+    [1] => EMPLOYEEBRIDGERECORD_REPORT_CUSTOM
+    [2] => q
+    [3] => root
+    [4] => a:2:{i:0;s:15:''Employee Emp ID'';i:1;s:16:''Record Record ID'';}
+    [5] => a:2:{i:0;s:0:'''';i:1;s:0:'''';}
+    [6] => a:2:{i:0;s:0:'''';i:1;s:0:'''';}
+    [7] => 
+    [8] => 
+    [9] => 
+    [10] => 
+    [11] => 
+)
+","/APC_Student_Assistant_System/modules/reporter_employeebridgerecord.php"
+52,"52","::1","root","2016-12-05 05:02:49","Pressed delete button","/APC_Student_Assistant_System/modules/reporter_employeebridgerecord.php"
+53,"53","::1","root","2016-12-05 05:02:49","Query Executed: DELETE FROM cobalt_reporter WHERE module_name = ? AND report_name = ?
+Array
+(
+    [0] => ss
+    [1] => EMPLOYEEBRIDGERECORD_REPORT_CUSTOM
+    [2] => q
+)
+","/APC_Student_Assistant_System/modules/reporter_employeebridgerecord.php"
+54,"54","::1","root","2016-12-05 05:08:39","Pressed submit button","/APC_Student_Assistant_System/modules/reporter_student.php"
+55,"55","::1","root","2016-12-05 05:08:47","Failed file download:  (C:\xampp\htdocs/APC_Student_Assistant_System/tmp/rpt_csv_tmp/)","/APC_Student_Assistant_System/download_csv_tmp_store.php"
+56,"56","::1","root","2016-12-05 05:10:18","Failed file download:  (C:\xampp\htdocs/APC_Student_Assistant_System/tmp/rpt_csv_tmp/)","/APC_Student_Assistant_System/download_csv_tmp_store.php"
+57,"57","::1","root","2016-12-05 05:13:04","Pressed submit button","/APC_Student_Assistant_System/modules/reporter_employee.php"
+58,"58","::1","root","2016-12-05 05:13:07","Failed file download:  (C:\xampp\htdocs/APC_Student_Assistant_System/tmp/rpt_csv_tmp/)","/APC_Student_Assistant_System/download_csv_tmp_store.php"
+59,"59","::1","root","2016-12-05 13:15:28","Pressed submit button","/APC_Student_Assistant_System/modules/add_employee.php"
+60,"60","::1","root","2016-12-05 13:15:28","Query Executed: INSERT INTO employee(Emp_id, Emp_last_name, Emp_first_name, Emp_middle_name, Email, Address, Postal_code, Tel_num, Mobile_num, Department_name, Gender, Civil_status, Birth_date, Birth_place, Religion, TIN_num) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+Array
+(
+    [0] => isssssiissssssss
+    [1] => 2009100200
+    [2] => Dela Cruz
+    [3] => Juan Miguel
+    [4] => L
+    [5] => juandelacruz@jdc.com
+    [6] => 123 Test St., Debug, Baguio City
+    [7] => 5555
+    [8] => 6544565
+    [9] => 09271234501
+    [10] => Guidance Office
+    [11] => Male
+    [12] => Married
+    [13] => 1956-01-07
+    [14] => Mandaluyong
+    [15] => Roman Catholic
+    [16] => 66666666666
+)
+","/APC_Student_Assistant_System/modules/add_employee.php"
+61,"61","::1","root","2016-12-05 13:16:20","Pressed cancel button","/APC_Student_Assistant_System/sysadmin/add_user_role.php"
+62,"62","::1","root","2016-12-05 13:16:41","Pressed submit button","/APC_Student_Assistant_System/sysadmin/add_person.php"
+63,"63","::1","root","2016-12-05 13:16:41","Query Executed: INSERT INTO person(person_id, first_name, middle_name, last_name, gender) VALUES(?,?,?,?,?)
+Array
+(
+    [0] => issss
+    [1] => 
+    [2] => Juan Miguel
+    [3] => L
+    [4] => Dela Cruz
+    [5] => Male
+)
+","/APC_Student_Assistant_System/sysadmin/add_person.php"
+64,"64","::1","root","2016-12-05 13:17:26","Pressed submit button","/APC_Student_Assistant_System/sysadmin/add_user.php"
+65,"65","::1","root","2016-12-05 13:17:27","Query Executed: INSERT INTO user(username, password, salt, iteration, method, person_id, role_id, skin_id) VALUES(?,?,?,?,?,?,?,?)
+Array
+(
+    [0] => sssisiii
+    [1] => jmdelacruz
+    [2] => $2y$12$Udky9MiMkTsXHdcJwjSsOuCTHEWnWePzxBTZM5yuEQ2XavavpuGHW
+    [3] => Udky9MiMkTsXHdcJwjSsOw
+    [4] => 12
+    [5] => blowfish
+    [6] => 4
+    [7] => 4
+    [8] => 1
+)
+","/APC_Student_Assistant_System/sysadmin/add_user.php"
+66,"66","::1","root","2016-12-05 13:17:27","Query executed: INSERT `user_passport` SELECT 'jmdelacruz', `link_id` FROM user_role_links WHERE role_id='4'","/APC_Student_Assistant_System/sysadmin/add_user.php"
+67,"67","::1","root","2016-12-05 13:17:29","Logged out","/APC_Student_Assistant_System/end.php"
+68,"68","::1","jmdelacruz","2016-12-05 13:17:34","Logged in","/APC_Student_Assistant_System/login.php"
+69,"69","::1","jmdelacruz","2016-12-05 13:17:53","Logged out","/APC_Student_Assistant_System/end.php"
+70,"70","::1","root","2016-12-05 13:19:57","Logged in","/APC_Student_Assistant_System/login.php"
+71,"71","::1","root","2016-12-05 13:20:22","Pressed submit button","/APC_Student_Assistant_System/modules/reporter_employee.php"
+72,"72","::1","root","2016-12-05 13:20:35","Failed file download:  (C:\xampp\htdocs/APC_Student_Assistant_System/tmp/rpt_csv_tmp/)","/APC_Student_Assistant_System/download_csv_tmp_store.php"
+73,"73","::1","root","2016-12-05 13:21:37","Pressed submit button","/APC_Student_Assistant_System/modules/csv_employeebridgerecord.php"
+74,"74","::1","root","2016-12-05 13:21:37","Exported table data to CSV","/APC_Student_Assistant_System/modules/csv_employeebridgerecord.php"
+75,"75","::1","root","2016-12-05 13:21:39","Failed file download:  (C:\xampp\htdocs/APC_Student_Assistant_System/tmp/)","/APC_Student_Assistant_System/download_generic.php"
+76,"76","::1","root","2016-12-05 13:32:03","Pressed submit button","/APC_Student_Assistant_System/modules/reporter_employee.php"
+77,"77","::1","root","2016-12-05 13:32:04","Successful file download: root_EMPLOYEE_REPORT_CUSTOM_2016-12-05_01-32pm.csv (C:\xampp\htdocs/APC_Student_Assistant_System/tmp/rpt_csv_tmp/745b75b7697aac063ca5d233ed2cd823c7b2bf1croot_EMPLOYEE_REPORT_CUSTOM_2016-12-05_01-32pm.csv)","/APC_Student_Assistant_System/download_csv_tmp_store.php"
+78,"78","::1","root","2016-12-05 13:34:28","Pressed submit button","/APC_Student_Assistant_System/modules/csv_employee.php"
+79,"79","::1","root","2016-12-05 13:34:28","Exported table data to CSV","/APC_Student_Assistant_System/modules/csv_employee.php"
+80,"80","::1","root","2016-12-05 13:34:30","Successful file download: root_employee_2016-12-05.csv (C:\xampp\htdocs/APC_Student_Assistant_System/tmp/abe9afad8ab08c25746c2c02437749ce3c1d2afaroot_employee_2016-12-05.csv)","/APC_Student_Assistant_System/download_generic.php"
+81,"81","::1","root","2016-12-05 13:35:28","Pressed submit button","/APC_Student_Assistant_System/sysadmin/security_monitor.php"
+82,"82","::1","root","2016-12-05 13:35:53","Pressed submit button","/APC_Student_Assistant_System/sysadmin/security_monitor.php"
+82,"","","","","",""
