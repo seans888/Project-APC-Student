@@ -12,8 +12,11 @@ $html = new html;
 $html->draw_header('About ' . GLOBAL_PROJECT_NAME, $message, $message_type);
 $project_name = GLOBAL_PROJECT_NAME;
 $msg=<<<EOD
-Student Assistant
-<br /><br /><b> $project_name is powered by Cobalt</b>
+<b>Student Assistant(SA)</b>
+
+<br/><br />
+<p>A student assistant is an APC bona fide student who is a recipient of the APC Student Assistant <p>financial scholarship and as part of the requirement to avail of such scholarship renders 10 of <p>on-campus work per term. A student assistant is under close supervision and in a learner <p>capacity, to assist in the performance of the duties required by the departmental assignment.</P>
+<br /><b> $project_name is powered by Cobalt</b>
 EOD;
 $html->display_info($msg);
 
